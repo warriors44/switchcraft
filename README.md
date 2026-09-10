@@ -15,7 +15,7 @@ SwitchCraft is a framework for designing state-switching proteins via gradient-b
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/bjing2016/switchcraft
+git clone https://github.com/warriors44/switchcraft
 cd switchcraft
 ```
 
@@ -23,7 +23,11 @@ cd switchcraft
 
 Install a PyTorch version matching your CUDA driver. For CUDA 12.x:
 ```bash
-pip install "torch==2.7.1+cu126" --index-url https://download.pytorch.org/whl/cu126
+python3 -m pip install "torch==2.7.1+cu126" --index-url https://download.pytorch.org/whl/cu126
+python3 -m pip install \
+  "cuequivariance-torch>=0.5.0" \
+  "cuequivariance-ops-torch-cu12>=0.5.0" \
+  "cuequivariance-ops-cu12>=0.5.0"
 ```
 
 **3. Install Boltz and remaining dependencies**
