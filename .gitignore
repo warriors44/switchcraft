@@ -8,3 +8,4 @@ LigandMPNN/model_params/
 sh/
 *.ckpt
 *.pkl
+tasks_test/
