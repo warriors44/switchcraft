@@ -1,0 +1,10 @@
+.venv/
+boltz/build/
+*.e*
+*.o*
+*.pyc
+out/*
+LigandMPNN/model_params/
+sh/
+*.ckpt
+*.pkl
